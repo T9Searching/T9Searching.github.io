@@ -107,7 +107,7 @@ background:linear-gradient(to bottom, rgba(0,0,500,.15), rgba(0,50,150,.55)),url
 color: #fff;
 height: 600px;
 margin: 0;
-padding: 200px 0 250px 0;
+padding: 150px 0 250px 0;
 background-size: cover;
 }
 #slide2{
@@ -147,7 +147,7 @@ background-size: cover;
 #searchinglogo{
     display:flex;
     justify-content:center;
-    padding: 165px 0;
+    padding: px 0;
              
      }
 
