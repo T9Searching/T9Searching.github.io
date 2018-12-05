@@ -94,10 +94,12 @@ margin: 50px auto;
  .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
  .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
 
- .quotes_container { width: 800px; margin: 0 auto; }
+ .quotes_container { width: 800px; margin: 0 auto;
 
 display:flex;
-justify-content: center}
+justify-content: center;
+flex-direction: column;
+}
 
 #home, #slide2{ width: 100%; }
 #home{
@@ -111,7 +113,7 @@ background-size: cover;
 #slide2{
 background:linear-gradient(to bottom, rgba(0,0,0,.25), rgba(150,125,150,.75)),url('../img/slide2.png') 50% 0 no-repeat fixed;
 color: #333333;
-height: 900px;
+height: 1200px;
 margin: 0 auto;
 padding: 175px 0;
 background-size: cover;
@@ -128,7 +130,7 @@ background-size: cover;
 #slide4{
 background:linear-gradient(to bottom, rgba(75,75,5,.45), rgba(0,0,0,.55)),url('../img/slide4.png') 50% 0 no-repeat fixed;
 color: #333333;
-height: 450px;
+height: 250px;
 margin: 0 auto;
 padding: 150px 0;
     }
