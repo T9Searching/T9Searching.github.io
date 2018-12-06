@@ -41,16 +41,16 @@ width: 100%;
 h1 {
 font-family:"Arvo";
 font-weight:bolder;
-font-size: 60px;
+font-size: 65px;
 text-align: center;
 color: #FFFFFF;
 margin: 50;
 padding: 250;
 }
 h2 {
-font-family:"Oswald";
+font-family:"Arvo";
 font-weight: bolder;
-font-size: 60px;
+font-size: 50px;
 text-align: center;
 color: #000;
 margin: 0;
@@ -59,7 +59,7 @@ padding: 0;
 h3 {
 font-family: "Oswald";
 font-weight: normal;
-font-size: 22px;
+font-size: 28px;
 text-align: center;
 color: #FFFFFF;
 margin: 5px 0;
@@ -79,7 +79,7 @@ z-index: 1;
 position: relative;
 }
 .center { margin: 0 auto; }
-.content{ margin: 0 auto; width: 90%;
+.content{ margin: 0 auto; width: 90%; display:flex; justify-content: center;
 }
 .clear { clear: both; }
 
@@ -107,13 +107,13 @@ background:linear-gradient(to bottom, rgba(0,0,500,.15), rgba(0,50,150,.55)),url
 color: #fff;
 height: 650px;
 margin: 0;
-padding: 100px 0 250px 0;
+padding: 150px 0 150px 0;
 background-size: cover;
 }
 #slide2{
 background:linear-gradient(to bottom, rgba(0,0,0,.25), rgba(150,125,150,.75)),url('../img/slide2.png') 50% 0 no-repeat fixed;
 color: #333333;
-height: 1000px;
+height: 1250px;
 margin: 0 auto;
 padding: 175px 0;
 background-size: cover;
@@ -122,9 +122,8 @@ background-size: cover;
 background:linear-gradient(to bottom, rgba(75,75,5,.25), rgba(0,50,0,.75)),url('../img/slide3.png') 50% 0 no-repeat fixed;
 color: #fff;
 height: 450px;
-padding: 150px;
+padding: 250px;
 margin: 0 auto;
-overflow: hidden;
 background-size: cover;
 }
 #slide4{
