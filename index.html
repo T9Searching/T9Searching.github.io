@@ -5,14 +5,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="/src/main.css">
     <title>Searching</title>
+    <script src="/src/main.js"></script>
   </head>
   <body>
 
     <div class="header">
       <img id="imgTitle" src="src/title.png" alt="Searching Logo">
       <div class="header-buttons">
-        <button id="btnBlog" type="button" name="btnBlog">Dev Blog</button>
-        <button id="btnDownload" type="button" name="btnDownload">Download</button>
+        <button id="btnBlog" type="button" name="btnBlog"><a target="_blank" href="https://jilebantino.wixsite.com/team9-searching">Dev Blog</a></button>
+        <button id="btnDownload" type="button" name="btnDownload"><a target="_blank" href="https://mega.nz/#!Z5F2waIJ!vk9QRYgUABeABtyCBthrgZ0Bj0NwGdvUga_BE8ap84k">Download</a></button>
       </div>
     </div>
 
@@ -24,16 +25,16 @@ Join them on the adventure of a lifetime, defeating foes and finding friendship 
         <div class="actor">
           <h1>Kenny</h1>
           <img src="./src/animations/kenny.gif" alt="[Kenny running]">
-          <p>Meet Kenny. Kenny, just 11, spends his days looking after his sick mother. Unfortunately, her health continues to deteriorate - it's up to Kenny to find a cure!</p>
+          <p>His mother is dying. It is up to him to find a cure. Can he find it in time?</p>
         </div>
         <div class="actor">
           <h1>Hachiko</h1>
-          <img src="./src/animations/hachiko.gif" alt="[Hachiko running]">
-          <p>Hachiko is an Akita, and possibly the most remarkable loyal dog, whom after his owner's disappearance, continued to wait for over 5 years. Hachiko is fed up. He refuses to accept defeat. Somewhere out there, his owner needs him, and he is ready!</p>
+          <img id="hachiko" src="./src/animations/hachiko.gif" alt="[Hachiko running]">
+          <p>After his owner's disappearance, Hachiko waits for 5 years only for his return. He is fed up, now, determined to set out for his search.</p>
         </div>
         <div class="actor">
           <h1>Some Goblin</h1>
-          <img src="./src/animations/goblin.gif" alt="[Goblin running]">
+          <img id="goblin" src="./src/animations/goblin.gif" alt="[Goblin running]">
           <p>"Yeet yeet", "Ka-Caw Ka-Caw"</p>
         </div>
       </div>
@@ -43,8 +44,8 @@ Join them on the adventure of a lifetime, defeating foes and finding friendship 
     <div class="download">
       <h1 >Ready to play?</h1><br>
       <p>Start simply with a <span id="click">click</span> to download</p>
-      <button id="btnGitLab" type="button" name="button">GitLab Repo</button>
-      <button id="btnDownload2" type="button" name="button">Download</button>
+      <button id="btnGitLab" onclick="#" type="button" name="button"><a target="_blank" href="https://gitlab.com/Group-9-project/game-source-code">GitLab Repo</a></button>
+      <button id="btnDownload2" onclick="#" type="button" name="button"><a target="_blank" href="https://mega.nz/#!Z5F2waIJ!vk9QRYgUABeABtyCBthrgZ0Bj0NwGdvUga_BE8ap84k">Download</a></button>
     </div>
 
     <div class="development">
@@ -120,16 +121,16 @@ Join them on the adventure of a lifetime, defeating foes and finding friendship 
 
     <div class="blog">
       <h1>Development Blogging</h1>
+      <img id="stawberry" src="/src/logos/celeste_strawberry.png" alt="[Starberry Image]">
       <h2>We blog because we must. If you are curious to know more about our development progression, check out our <strong>blog</strong> page</h2>
       <h3>You can also check out Johnny's blog also for the latest updates!</h3>
       <div class="blog-buttons">
-        <button id="main-blog-button" type="button" name="button">Development Blog</button>
-        <button id="johnny-blog-button" type="button" name="button">Johnny's Bloggos</button>
+        <button id="main-blog-button" type="button" name="button"><a target="_blank" href="https://jilebantino.wixsite.com/team9-searching">Development Blog</a></button>
+        <button id="johnny-blog-button" type="button" name="button"><a target="_blank" href="https://johnnyleteam9searching.wordpress.com/">Johnny's Bloggos</a></button>
       </div>
     </div>
 
     <div class="footer">
-      <img id="stawberry" src="/src/logos/celeste_strawberry.png" alt="">
       <div class="footer-flex">
         <div class="footer-div">
           <h1>Team 9</h1>

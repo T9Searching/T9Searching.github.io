@@ -6,6 +6,11 @@ body {
   color: #2c3e50;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .navbar {
   background-color: white;
   height: 50px;
@@ -70,6 +75,8 @@ body {
 
 .actor > h1 {margin-top: 40px;}
 .actor > img {width: 200px;}
+#hachiko {width: 150px;}
+#goblin {width: 170px;}
 .actor > p {
   padding: 20px;
   font-size: 20px;
@@ -180,7 +187,12 @@ body {
 }
 
 .blog {
-  height: 300px;
+  height: 430px;
+}
+.blog > img {
+  margin-top: 20px;
+  margin-left: -20px;
+  width: 200px;
 }
 .blog h1 {
   font-size: 50px;
@@ -215,16 +227,23 @@ body {
   justify-content: space-between;
 }
 .footer-flex > div {
-  width: 30%;
+  width: 25%;
+}
+.footer-flex > div > h1 {
+  padding-top: 20px;
+  display: inline-block;
+  border-bottom: 2px solid white;
+  margin-bottom: -70px;
 }
 .footer-flex > div > p {
   font-size: 20px;
+  padding: 15px;
 }
 .footer img {
-  margin-left: -10px;
+  margin-left: -20px;
   margin-top: 20px;
   margin-bottom: -20px;
-  width: 200px;
+  width: 250px;
 }
 
 .bottom {
