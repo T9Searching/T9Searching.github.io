@@ -245,6 +245,9 @@ a {
   margin-bottom: -20px;
   width: 250px;
 }
+.footer-div img {
+  width: 50px;
+}
 
 .bottom {
   padding: 5px;
