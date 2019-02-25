@@ -1,0 +1,235 @@
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.navbar {
+  background-color: white;
+  height: 50px;
+  width: 100vw;
+}
+
+.header {
+  height: 100vh;
+  text-align: center;
+  //background-image: url("/src/backgrounds/slide1.png");
+  background:linear-gradient(to bottom, rgba(0,0,500,.15), rgba(0,50,150,.55)),url('/src/backgrounds/slide1.png') no-repeat fixed;
+}
+
+#imgTitle {
+  margin-top: 180px;
+}
+
+.header-buttons > button{
+  width: 175px;
+  margin-top: 20px;
+  border-style: none;
+  padding: 20px;
+  border-radius: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+#btnBlog {background-color: #d63031; margin-right: 150px;}
+#btnBlog:hover {background-color: #ff7675;}
+#btnDownload {background-color: #00cec9;}
+#btnDownload:hover {background-color: #81ecec;}
+
+.introduction {
+  padding: 15px;
+}
+
+.introduction > h1 {
+  display: inline-block;
+  font-size: 65px;
+  border-bottom: 2.5px dotted #2c3e50;;
+}
+.introduction > p {
+  font-size: 25px;
+  line-height: 40px;
+}
+.introduction > h2 {
+  font-size: 40px;
+  color: #3B3B98;
+}
+
+.actors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actors > div {
+  background-color: #dfe6e9;
+  width: 32%;
+  height: 500px;
+}
+
+.actor > h1 {margin-top: 40px;}
+.actor > img {width: 200px;}
+.actor > p {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.download {
+  background-image: url("/src/backgrounds/city.jpg");
+  height: 90vh;
+  background-attachment: fixed;
+}
+
+.download > h1 {
+  display: inline-block;
+  font-size: 65px;
+  margin-top: 150px;
+  color: white;
+  margin-bottom: -40px;
+}
+
+.download > p {
+  font-size: 40px;
+}
+
+#click {color: #B53471;}
+#click:hover {
+  color: white;
+}
+
+.download > button {
+  font-size: 25px;
+  color: white;
+  border-style: none;
+  padding: 20px;
+  border-radius: 50px;
+  width: 250px;
+}
+
+#btnGitLab {background-color: #EE5A24; margin-right: 75px;}
+#btnGitLab:hover {background-color: white; margin-right: 75px; color: #EE5A24;}
+#btnDownload2 {background-color: #00cec9;}
+#btnDownload2:hover {background-color: white; color: #00cec9}
+
+.development > h1 {
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+.development > p {
+  margin: 20px;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+#searching-team {
+  color: #5758BB;
+}
+
+.dev-resources {
+  margin: 20px;
+  margin-top: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devblock {
+  //border: 1px solid black;
+  width: 23%;
+  font-size: 18px;
+  height: 300px;
+}
+.devblock h2 {font-size: 28px;}
+.dev-resources > div > img {
+  margin-top: 10px;
+  //border: 1px solid black;
+  width: 100px;
+}
+
+.developers {
+  background-image: url("/src/backgrounds/underwater.png");
+  background-attachment: fixed;
+  height: 90vh;
+  color: white;
+}
+.developers > h1 {
+  display: inline-block;
+  margin-top: 70px;
+  font-size: 65px;
+}
+.developers h2 {
+  font-size: 35px;
+  margin-bottom: -10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 12.5px;
+}
+.developers p {
+  font-size: 25px;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.team > div {
+  width: 20%
+}
+
+.blog {
+  height: 300px;
+}
+.blog h1 {
+  font-size: 50px;
+  margin-bottom: -5px;
+}
+.blog-buttons > button {
+  margin-top: 50px;
+  color: white;
+  width: 325px;
+  padding: 20px;
+  background-color: #00cec9;
+  font-size: 30px;
+  border-style: none;
+  border-radius: 50px;
+}
+
+#main-blog-button {background-color: #fdcb6e; margin-right: 100px;}
+#main-blog-button:hover {background-color: white; margin-right: 100px; color: #fdcb6e;}
+#johnny-blog-button {background-color: #00cec9;}
+#johnny-blog-button:hover {background-color: white; color: #00cec9}
+
+.footer {
+  margin-top: 75px;
+  background-color: #40407a;
+  //height: 300px;
+}
+.footer-flex {
+  margin: 0px 20px;
+  color: white;
+  background-color: #40407a;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-flex > div {
+  width: 30%;
+}
+.footer-flex > div > p {
+  font-size: 20px;
+}
+.footer img {
+  margin-left: -10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  width: 200px;
+}
+
+.bottom {
+  padding: 5px;
+  color: white;
+  background-color: #2c2c54;
+  font-size: 20px;
+}

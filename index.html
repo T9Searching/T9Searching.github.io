@@ -1,123 +1,153 @@
-<!--- Basic HTML jargon --->
-
 <!DOCTYPE html>
-<html lang="en">
- <head>
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <title>SEARCHING</title>
- <link rel="stylesheet" href="css/style.css"/>
- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
- <link href='//fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/src/main.css">
+    <title>Searching</title>
+  </head>
+  <body>
 
- <link href='//fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
- <link href='//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
- <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
- <link href='://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css''>
- <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <script>
- </script>
-     
-     
-</head>
+    <div class="header">
+      <img id="imgTitle" src="src/title.png" alt="Searching Logo">
+      <div class="header-buttons">
+        <button id="btnBlog" type="button" name="btnBlog">Dev Blog</button>
+        <button id="btnDownload" type="button" name="btnDownload">Download</button>
+      </div>
+    </div>
 
-<body>
-    
-<!----- HEADER START---
-        
-<header id="header">
-<div class="content">
-<nav id="nav">
- <ul>
- <li><a href="#home" title="Home">Home</a></li>
- <li><a href="#slide2" title="Next Section">Info</a></li>
- <li><a href="#slide3" title="Next Section">Download</a></li>
- <li><a href="#slide4" title="About Us">About Us</a></li>
- </ul>
-</nav>
-</div>
-</header>
-    
-<!----- HEADER ENDS---> 
-        
-    
-<!----- PAGES START ---> 
-    
- <div id="home">
-<div id="searchinglogo"><img src="img/Searching2.png"/> 
-     </div> 
-     <div id="dlbtn">
-     <div class="button">
-  <a href="https://mega.nz/#!Z5F2waIJ!vk9QRYgUABeABtyCBthrgZ0Bj0NwGdvUga_BE8ap84k">Download</a>
-</div>  
-     <div class="button2">
-  <a href="https://jilebantino.wixsite.com/team9-searching">Blog</a>
-</div>
-</div>
- </div> 
-    
-    
- <div id="slide2">
- <div class="content" >
- <div class="quotes_container">
- <h1>Welcome to Searching</h1>
- <h3>Searching follows the story of two protagonists who embark on a magical journey to save the life of a loved one, and solve a mysterious disappearance, all-the-while having a blast at the same time through creating new friendships, rivalry and discoveries they hadn't image they would unfold</h3> 
-     <h3><p>Join them on the adventure of a lifetime, defeating foes and finding friendship in unexpected places.</h3>
- <p><h2>Kenny</h2>
-    <div id ="footlogo"> <img src="img/kenny.gif">
-     </div>
- <h3><p>Meet Kenny. Kenny, just 11, spends his days looking after his sick mother. Unfortunately, her health continues to deteriorate - it's up to Kenny to find a cure! </h3>   
- 
- <p><h2>Hachiko</h2>
-     <div id ="footlogo"> <img src="img/hachiko.gif"></div>
- <h3><p>Hachiko is an Akita, and possibly the most remarkable loyal dog, whom after his owner's disappearance, continued to wait for over 5 years. Hachiko is fed up. He refuses to accept defeat. Somewhere out there, his owner required a his companion back again. Now he's on a mission, with his own companion to find his owner. Will his loyalty be rewarded with a reunion, or is there an ulterior motive behind this disappearance? </h3> 
- </div> 
- </div> 
- </div> 
-    
-    
- <div id="slide3">
- <div class="content">
- <div class="quotes_container">
- <h1>Ready to Play?</h1>
-     <h3> Start simply with a click below to download Searching!</h3>
-          <div id="dlbtn">
-          <div class="button">
-  <a href="https://mega.nz/#!Z5F2waIJ!vk9QRYgUABeABtyCBthrgZ0Bj0NwGdvUga_BE8ap84k">Download</a>
-</div>  
-</div>  
-         </div>
+    <div class="introduction">
+      <h1>Welcome to Searching</h1>
+      <p>Searching follows the story of two protagonists who embark on a magical journey to save the life of a loved one, and solve a mysterious disappearance, all-the-while having a blast at the same time through creating new friendships, rivalry and discoveries they hadn't image they would unfold
+Join them on the adventure of a lifetime, defeating foes and finding friendship in unexpected places.</p>
+      <div class="actors">
+        <div class="actor">
+          <h1>Kenny</h1>
+          <img src="./src/animations/kenny.gif" alt="[Kenny running]">
+          <p>Meet Kenny. Kenny, just 11, spends his days looking after his sick mother. Unfortunately, her health continues to deteriorate - it's up to Kenny to find a cure!</p>
+        </div>
+        <div class="actor">
+          <h1>Hachiko</h1>
+          <img src="./src/animations/hachiko.gif" alt="[Hachiko running]">
+          <p>Hachiko is an Akita, and possibly the most remarkable loyal dog, whom after his owner's disappearance, continued to wait for over 5 years. Hachiko is fed up. He refuses to accept defeat. Somewhere out there, his owner needs him, and he is ready!</p>
+        </div>
+        <div class="actor">
+          <h1>Some Goblin</h1>
+          <img src="./src/animations/goblin.gif" alt="[Goblin running]">
+          <p>"Yeet yeet", "Ka-Caw Ka-Caw"</p>
+        </div>
+      </div>
+      <h2>Will their hard struggles reward the pair with a reunion and a saved life, or is there an ulterior motive behind his disappearance?</h1>
+    </div>
 
- </div> 
- </div> 
- </div> 
-    
-    
- <div id="slide4">
- <div class="content">
- <div class="quotes_container">
- <h1>About Us</h1>
-     <h3> We're Team nine. Developers and advocates of <StrongSearching</Strong>. </h3>
-     <h3>For more information about us, or to follow our development, check out our <a href="https://jilebantino.wixsite.com/team9-searching">blogs!</a></h3>
- </div> 
- </div> 
- </div> 
-     
+    <div class="download">
+      <h1 >Ready to play?</h1><br>
+      <p>Start simply with a <span id="click">click</span> to download</p>
+      <button id="btnGitLab" type="button" name="button">GitLab Repo</button>
+      <button id="btnDownload2" type="button" name="button">Download</button>
+    </div>
 
-    
- <div id="footer">
- <div class="content">
- <div id ="footlogo">
-<h5>A</h5>
- <img src="img/logo.png"/>
- <h5>GAME</h5>
-     </div>
- </div> 
- </div> 
-        
- <!----- SLIDES END --->
-    
-    
-</body>
+    <div class="development">
+      <h1>Development</h1>
+      <p>The <span id="searching-team">Searching team</span> have used a number of resources to manage our project and work in a more productive manner.</p>
+      <p>The applications and libraries used can be found below</p>
+      <div class="dev-resources">
+        <div class="devblock">
+          <img src="/src/logos/java.png" alt="[Java logo]">
+          <h2>Java</h2>
+          <p>Our entire project is written with Java</p>
+        </div>
+        <div class="devblock">
+          <img src="/src/logos/libgdx.png" alt="[Libgdx logo]">
+          <h2>LibGDX</h2>
+          <p>A free and open-source game-development application framework</p>
+        </div>
+        <div class="devblock">
+          <img src="/src/logos/androidstudios.png" alt="[Android Studio logo]">
+          <h2>Android Studios</h2>
+          <p>An IDE built on IntelliJ IDEA Software and designed specifically for Android Development</p>
+        </div>
+        <div class="devblock">
+          <img src="/src/logos/gitlab.png" alt="[GitLab logo]">
+          <h2>GitLab</h2>
+          <p>A web-based Dev-Ops LC tool providing a Git repo-manager</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="developers">
+      <h1>The Searching Team</h1>
+      <div class="team">
+        <div class="member">
+          <h2>Alex</h2>
+          <p>Project Manager | Lead Developer</p>
+        </div>
+        <div class="member">
+          <h2>Ashley</h2>
+          <p>Developer</p>
+        </div>
+        <div class="member">
+          <h2>Ehsaan</h2>
+          <p>Developer</p>
+        </div>
+        <div class="member~">
+          <h2>Izzy</h2>
+          <p>Resourcer</p>
+        </div>
+        <div class="member">
+          <h2>Jay</h2>
+          <p>Web Developer</p>
+          <p>[AFK]</p>
+        </div>
+        <div class="member">
+          <h2>Jennifer</h2>
+          <p>Task Manager | Developer</p>
+        </div>
+        <div class="member">
+            <h2>Johnny</h2>
+          <p>Project Manager | Lead Developer | Web</p>
+        </div>
+        <div class="member">
+          <h2>Jovin</h2>
+          <p>Developer</p>
+        </div>
+        <div class="member">
+          <h2>Mahnoor</h2>
+          <p>Developer</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <h1>Development Blogging</h1>
+      <h2>We blog because we must. If you are curious to know more about our development progression, check out our <strong>blog</strong> page</h2>
+      <h3>You can also check out Johnny's blog also for the latest updates!</h3>
+      <div class="blog-buttons">
+        <button id="main-blog-button" type="button" name="button">Development Blog</button>
+        <button id="johnny-blog-button" type="button" name="button">Johnny's Bloggos</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img id="stawberry" src="/src/logos/celeste_strawberry.png" alt="">
+      <div class="footer-flex">
+        <div class="footer-div">
+          <h1>Team 9</h1>
+          <p>8 devs, 1 chief</p>
+        </div>
+        <div class="footer-div">
+          <h1>About us</h1>
+          <p>Everyone in this team have never developed a game before with no knowledge of frameworks and libraries available. </p>
+          <p>Many hearts were lost throughout this project, please offer your prayers.</p>
+        </div>
+        <div class="footer-div">
+          <h1>Subscribe to Pewdiepie</h1>
+          <p>Help us fight the biggest fight against T-Series at the Tilted Towers</p>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Aston University 2019 - Team 9</p>
+      </div>
+    </div>
+  </body>
 </html>
