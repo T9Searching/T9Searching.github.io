@@ -229,7 +229,7 @@ a {
 .footer-flex > div {
   width: 25%;
 }
-.footer-flex > div > h1 {
+.footer-div h1 {
   padding-top: 20px;
   display: inline-block;
   border-bottom: 2px solid white;
@@ -241,7 +241,6 @@ a {
 }
 .footer img {
   margin-left: -20px;
-  margin-top: 20px;
   margin-bottom: -20px;
   width: 250px;
 }
