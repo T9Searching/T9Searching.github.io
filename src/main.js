@@ -5,3 +5,7 @@ var data {
   blog: 'https://jilebantino.wixsite.com/team9-searching',
   johnny: 'https://johnnyleteam9searching.wordpress.com/',
 };
+
+$(document).ready(function(){
+  
+});
