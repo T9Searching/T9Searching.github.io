@@ -20,8 +20,8 @@ a {
 .header {
   height: 100vh;
   text-align: center;
-  //background-image: url("/src/backgrounds/slide1.png");
-  background:linear-gradient(to bottom, rgba(0,0,500,.15), rgba(0,50,150,.55)),url('/src/backgrounds/slide1.png') no-repeat fixed;
+  background-image: url("backgrounds/slide1.png");
+  background:linear-gradient(to bottom, rgba(0,0,500,.15), rgba(0,50,150,.55)),url('backgrounds/slide1.png') no-repeat fixed;
 }
 
 #imgTitle {
@@ -36,6 +36,7 @@ a {
   border-radius: 100px;
   font-size: 20px;
   color: white;
+  transition: 0.3s;
 }
 
 #btnBlog {background-color: #d63031; margin-right: 150px;}
@@ -72,6 +73,7 @@ a {
   background-color: #dfe6e9;
   width: 32%;
   height: 400px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 
 .actor > h1 {
@@ -93,7 +95,7 @@ a {
 }
 
 .download {
-  background-image: url("/src/backgrounds/city.jpg");
+  background-image: url("backgrounds/city.jpg");
   height: 90vh;
   background-attachment: fixed;
 }
@@ -101,16 +103,22 @@ a {
 .download > h1 {
   display: inline-block;
   font-size: 65px;
-  margin-top: 150px;
+  margin-top: 130px;
   color: white;
   margin-bottom: -40px;
+  padding: 20px;
+  border-radius:80px;
+  background-color: rgba(204, 107, 142, 0.5);
+  margin-bottom: 10px;
 }
 
 .download > p {
   font-size: 40px;
 }
 
-#click {color: #B53471;}
+#click {
+  color: #B53471;
+}
 #click:hover {
   color: white;
 }
@@ -122,6 +130,7 @@ a {
   padding: 20px;
   border-radius: 50px;
   width: 250px;
+  transition: 0.3s;
 }
 
 #btnGitLab {background-color: #EE5A24; margin-right: 75px;}
@@ -166,7 +175,7 @@ a {
 }
 
 .developers {
-  background-image: url("/src/backgrounds/underwater.png");
+  background-image: url("backgrounds/underwater.png");
   background-attachment: fixed;
   height: 90vh;
   color: white;
@@ -197,6 +206,7 @@ a {
 
 .blog {
   height: 430px;
+  padding-bottom: 60px;
 }
 .blog > img {
   margin-top: 20px;
@@ -209,7 +219,7 @@ a {
   margin-bottom: -5px;
 }
 .blog-buttons > button {
-  margin-top: 50px;
+  margin-top: 30px;
   color: white;
   width: 325px;
   padding: 20px;
@@ -217,6 +227,7 @@ a {
   font-size: 30px;
   border-style: none;
   border-radius: 50px;
+  transition: 0.3s;
 }
 
 #main-blog-button {background-color: #fdcb6e; margin-right: 100px;}
@@ -224,6 +235,25 @@ a {
 #johnny-blog-button {background-color: #00cec9;}
 #johnny-blog-button:hover {background-color: white; color: #00cec9}
 
+/* SCREENSHOTS */
+.screenshots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.screenshots img {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  box-shadow: 0px 5px 10px rgba(0,0,0, 0.5);
+  transition: 0.3s;
+}
+.screenshots img:hover {
+  transform: scale(1.03, 1.03);
+}
+
+/* FOOTER */
 .footer {
   margin-top: 75px;
   background-color: #40407a;
@@ -239,6 +269,12 @@ a {
 .footer-flex > div {
   width: 25%;
 }
+.footer-div ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0px;
+  font-size: 20px;
+}
 .footer-div h1 {
   padding-top: 20px;
   display: inline-block;
@@ -253,6 +289,7 @@ a {
   margin-left: -20px;
   margin-bottom: -20px;
   width: 250px;
+  image-rendering: pixelated;
 }
 .footer-div img {
   width: 50px;
